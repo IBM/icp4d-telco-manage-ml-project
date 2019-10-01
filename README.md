@@ -111,6 +111,6 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
 
   *  A map based selection of each tower, on selection of one tower, it shows the call drop prediction over the next 24 hours, with the help of the Time Series Model. It also shows which factors affect the Call Drop Percentage at one tower and by how much?
   
-    ![](doc/src/images/output1.png)
+   ![](doc/src/images/output1.png)
     
   
