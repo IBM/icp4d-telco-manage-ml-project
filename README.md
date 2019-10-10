@@ -56,12 +56,25 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
 
 ## Steps
 
-1. [Setup a new notebook on your Cloud Pak for Data instance](#2-setup-a-new-notebook-on-your-cloud-pak-for-data-instance)
-2. [Setup notebook for Call Drop Monitoring Model](#3-setup-notebook-for-call-drop-monitoring-model)
-3. [Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations](#4-setup-cognos-analytics-dashboard-on-your-cloud-pak-for-data-instance-for-visualisations)
+1. [Obtain your data from Data Virtualisation](#1-obtain-your-data-from-data-virtualisation)
+2. [Setup a new notebook on your Cloud Pak for Data instance](#2-setup-a-new-notebook-on-your-cloud-pak-for-data-instance)
+3. [Setup notebook for Call Drop Monitoring Model](#3-setup-notebook-for-call-drop-monitoring-model)
+4. [Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations](#4-setup-cognos-analytics-dashboard-on-your-cloud-pak-for-data-instance-for-visualisations)
 
 
-### 1. Setup a new notebook on your Cloud Pak for Data
+### 1. Obtain your data from Data Virtualisation
+
+* Clone this repo using `Clone or Download` button in this repo. 
+* Follow the [Data Virtualisation](insert-tutorial-link) to virtualise and join the data.
+* For the tutorial, Unzip the repo file downloaded and navigate to the `datsets` folder. 
+* Select the `weather.csv` and `tower.csv` files as the two files to be joined and virtualised.
+
+```
+Note: 
+   1. We have given two options to access the merged file in the tutorial- Assign the file directly to your current working project on Cloud Pak for Data or store into a db.
+   2. Data Virtualisation may have performance issues, if not given enough number of resources. Hence, for the model to have sufficient training data, we have also attached the full dataset in this repo.
+```
+### 2. Setup a new notebook on your Cloud Pak for Data
 
 * Create a new Project by clicking on the `Navigation Menu` icon in the top-left corner. Select on `Projects` tab.
 
@@ -95,13 +108,13 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
 * Go to the last cell in the notebook. Replace Schema Name with an existing Schema name.
 * Now re-open the notebook. Click on `cell> Run all`. 
 
-### 2. Setup your notebook for Call Drop Monitoring
+### 3. Setup your notebook for Call Drop Monitoring
 
    * Follow the steps of the above code pattern to setup the deployments on Watson OpenScale.
    [Monitor your Open Source ML Models using Watson OpenScale](Add link)
    
    
-### 3. Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations
+### 4. Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations
 
    * Once data is generated and stored in the db. After running the Time Series Notebook, follow the tutorial-
    
