@@ -71,8 +71,11 @@ Note: This Pattern is a 301 and will require you to completely setup with the he
 
 ```
 Note: 
-   1. We have given two options to access the merged file in the tutorial- Assign the file directly to your current working project on Cloud Pak for Data or store into a db.
-   2. Data Virtualisation may have performance issues, if not given enough number of resources. Hence, for the model to have sufficient training data, we have also attached the full dataset in this repo. For this pattern we are using csv method.
+   1. We have given two options to access the merged file in the tutorial- Assign the file directly 
+   to your current working project on Cloud Pak for Data or store into a db.
+   2. Data Virtualisation may have performance issues, if not given enough number of resources.
+   Hence, for the model to have sufficient training data, we have also attached the full dataset in this repo.
+   For this pattern we are using csv method.
  
 ```
 ### 2. Setup a new notebook on your Cloud Pak for Data
