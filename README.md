@@ -109,7 +109,7 @@ To create the data set required for this code pattern, you have 2 options.
 
 ### 5. Import notebook to Cloud Pak for Data
 
-* From your project page, select `Notebooks > Add Notebook`. From the `From File` tab, click on Browse. Navigate to the `Multivariate_Time_Series.jupyter-py36.ipynb` notebook located in the `/notebooks` directory, and click on `Create`.
+* From your project page, select `Notebooks > Add Notebook`. From the `From File` tab, click on Browse. Navigate to the `Multivariate_Time_Series.ipynb` notebook located in the `/notebooks` directory, and click on `Create`.
 
    ![create_notebook](doc/src/images/create_notebook.png)
 
@@ -119,7 +119,7 @@ To create the data set required for this code pattern, you have 2 options.
 
 You will run cells individually by highlighting each cell, then either click the `Run` button at the top of the notebook. While the cell is running, an asterisk (`[*]`) will show up to the left of the cell. When that cell has finished executing a sequential number will show up (i.e. `[17]`).
 
-> **NOTE**: For reference, we have included a completed notebook in the `/examples` directory of this repo. This version of the notebook includes all the executed steps and outputs. See [https://github.com/IBM/icp4d-telco-manage-ml-project/blob/master/examples/Multivariate_Time_Series-Example.jupyter-py36.ipynb](https://github.com/IBM/icp4d-telco-manage-ml-project/blob/master/examples/Multivariate_Time_Series-Example.jupyter-py36.ipynb)
+> **NOTE**: For reference, we have included a completed notebook in the `/examples` directory of this repo. This version of the notebook includes all the executed steps and outputs. See [https://github.com/IBM/icp4d-telco-manage-ml-project/blob/master/examples/Multivariate_Time_Series-Example.ipynb](https://github.com/IBM/icp4d-telco-manage-ml-project/blob/master/examples/Multivariate_Time_Series-Example.ipynb)
 
 #### Insert DB Credentials
 
