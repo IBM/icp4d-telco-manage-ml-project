@@ -1,9 +1,9 @@
 # Predict, Manage and Monitor the call drops of cell towers using Cloud Pak for Data
 
-> **Note**: This code pattern is part of a series that explores telecom call-drop predictions using IBM Cloud Pak for Data, Data Virtualization, Watson OpenScale, and Cognos Analyics. Other assets included in the series include:<br>
+> **Note**: This code pattern is part of a series that explores telecom call-drop predictions using IBM Cloud Pak for Data, Data Virtualization, Watson OpenScale, and Cognos Analyics. Other assets included in the series include:
 >- Tutorial - [Query across distributed data sources as one: Data virtualization for data analytics](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/)
 >- Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://github.com/IBM/icp4d-telco-monitor-models-with-wml-openscale)
->- Tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](UPDATE-WITH-LINK)
+>- Tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorial/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data)
 
 A call drop is a situation where a call on a wireless network is disconnected before the caller ends the call. Some of the main reasons for call drops are:
 
@@ -62,9 +62,9 @@ After completing this code pattern, you'll learn how to:
 * [Watson OpenScale Add On for Cloud Pak for Data](https://cloud.ibm.com/docs/services/ai-openscale-icp?topic=ai-openscale-icp-inst-install-icp)
 * Tutorial - [Query across distributed data sources as one: Data virtualization for data analytics](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/)
 * Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://github.com/IBM/icp4d-telco-monitor-models-with-wml-openscale)
-* Tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](UPDATE-WITH-LINK)
+* Tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorial/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data)
 
-> **Note**: As mentioned earlier, this code pattern is part of a code series and assumes that you have completed the other assets in this series (as listed above in the `Prerequisites` section). Those assets take you through some set-up steps that must be completed before starting on this code pattern.
+> **Note**: As mentioned earlier, this code pattern is part of a series of assets around predicted call-drops from cell towers. It assumes that you have completed the other assets in the series (as listed above in the `Prerequisites` section). Those assets take you through some set-up steps that must be completed before starting on this code pattern.
 
 ## Steps
 
@@ -130,6 +130,8 @@ You will run cells individually by highlighting each cell, then either click the
 Insert your created db credentials, below the section `2.1 Insert the Db Credentials` in the notebook.
 
    ![configure_db_creds](doc/src/images/configure_dbcred.png)
+
+> **NOTE**: For more details on how to set up your DB connection, see the tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorial/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data).
 
 #### Add the Dataset
 
