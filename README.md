@@ -91,7 +91,7 @@ To create the data set required for this code pattern, you have 2 options.
 
 1. You can build the data yourself.
 
-  * Follow the [Data Virtualization Tutorial](insert-tutorial-link) to virtualize and join the data.
+  * Follow the [Data Virtualization Tutorial](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/) to virtualize and join the data.
   * Select the `weather.csv` and `tower.csv` files as the two files to be joined and virtualized. Both files are located in the `/data` directory.
 
 2. As a convinence, we have created a `csv` file version of this merged data wich you can use directly. The file is named `Telco_training_final.csv` and is also located in the `data` directory.
