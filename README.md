@@ -2,7 +2,7 @@
 
 > **Note**: This code pattern is part of a series that explores telecom call-drop predictions using IBM Cloud Pak for Data, Data Virtualization, Watson OpenScale, and Cognos Analyics. Other assets included in the series include:
 >- Tutorial - [Query across distributed data sources as one: Data virtualization for data analytics](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/)
->- Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://github.com/IBM/icp4d-telco-monitor-models-with-wml-openscale)
+>- Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://developer.ibm.com/patterns/monitor-and-deploy-open-source-ml-models-with-wml-and-watson-openscale-on-icp4d/)
 >- Tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorial/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data)
 
 A call drop is a situation where a call on a wireless network is disconnected before the caller ends the call. Some of the main reasons for call drops are:
@@ -62,7 +62,7 @@ After completing this code pattern, you'll learn how to:
 * An Active Db2 instance
 * [Watson OpenScale Add On for Cloud Pak for Data](https://cloud.ibm.com/docs/services/ai-openscale-icp?topic=ai-openscale-icp-inst-install-icp)
 * Tutorial - [Query across distributed data sources as one: Data virtualization for data analytics](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/)
-* Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://github.com/IBM/icp4d-telco-monitor-models-with-wml-openscale)
+* Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://developer.ibm.com/patterns/monitor-and-deploy-open-source-ml-models-with-wml-and-watson-openscale-on-icp4d/)
 * Tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorial/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data)
 
 > **Note**: As mentioned earlier, this code pattern is part of a series of assets around predicted call-drops from cell towers. It assumes that you have completed the other assets in the series (as listed above in the `Prerequisites` section). Those assets take you through some set-up steps that must be completed before starting on this code pattern.
@@ -152,7 +152,7 @@ Choose the `Local` tab, and select the `call_drop_data_train.csv` file that you 
 ### 7. Setup your notebook for call-drop monitoring
 
 Complete the previous code pattern in this code series -
-[Monitor your Open Source ML Models using Watson OpenScale](https://github.com/IBM/icp4d-telco-monitor-models-with-wml-openscale).
+[Monitor your Open Source ML Models using Watson OpenScale](https://developer.ibm.com/patterns/monitor-and-deploy-open-source-ml-models-with-wml-and-watson-openscale-on-icp4d/).
 
 It performs the setup of the deployments on Watson OpenScale.
 
