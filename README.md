@@ -59,6 +59,7 @@ After completing this code pattern, you'll learn how to:
 
 * An [IBM Cloud Account](https://cloud.ibm.com).
 * [IBM Cloud Pak for Data](https://www.ibm.com/in-en/products/cloud-pak-for-data)
+* An Active Db2 instance
 * [Watson OpenScale Add On for Cloud Pak for Data](https://cloud.ibm.com/docs/services/ai-openscale-icp?topic=ai-openscale-icp-inst-install-icp)
 * Tutorial - [Query across distributed data sources as one: Data virtualization for data analytics](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/)
 * Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://github.com/IBM/icp4d-telco-monitor-models-with-wml-openscale)
@@ -131,7 +132,7 @@ Insert your created db credentials, below the section `2.1 Insert the Db Credent
 
    ![configure_db_creds](doc/src/images/configure_dbcred.png)
 
-> **NOTE**: For more details on how to set up your DB connection, see the tutorial, Step 3 - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorials/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data/).
+> **NOTE**: We assume have a Db2 instance availabe on Cloud or on-premise Db.
 
 #### Add the Dataset
 
@@ -157,7 +158,7 @@ It performs the setup of the deployments on Watson OpenScale.
 
 ### 8. Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for visualizations
 
-Once data is generated and stored in the db., and after running the `Time Series` notebook, follow the tutorial - [Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for Visualisations](Add link) to generate the output as shown in the next section.
+Once data is generated and stored in the db., and after running the `Time Series` notebook, follow the tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorial/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data) to generate the output as shown in the next section.
 
 ## Sample Output
 
