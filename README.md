@@ -63,7 +63,7 @@ After completing this code pattern, you'll learn how to:
 * [Watson OpenScale Add On for Cloud Pak for Data](https://cloud.ibm.com/docs/services/ai-openscale-icp?topic=ai-openscale-icp-inst-install-icp)
 * Tutorial - [Query across distributed data sources as one: Data virtualization for data analytics](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/)
 * Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://developer.ibm.com/patterns/monitor-and-deploy-open-source-ml-models-with-wml-and-watson-openscale-on-icp4d/)
-* Tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorial/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data)
+* Tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorials/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data/)
 
 > **Note**: As mentioned earlier, this code pattern is part of a series of assets around predicted call-drops from cell towers. It assumes that you have completed the other assets in the series (as listed above in the `Prerequisites` section). Those assets take you through some set-up steps that must be completed before starting on this code pattern.
 
