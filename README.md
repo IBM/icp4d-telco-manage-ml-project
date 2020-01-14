@@ -131,7 +131,7 @@ Insert your created db credentials, below the section `2.1 Insert the Db Credent
 
    ![configure_db_creds](doc/src/images/configure_dbcred.png)
 
-> **NOTE**: For more details on how to set up your DB connection, see the tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorial/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data).
+> **NOTE**: For more details on how to set up your DB connection, see the tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorials/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data/).
 
 #### Add the Dataset
 
