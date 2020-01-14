@@ -158,7 +158,7 @@ It performs the setup of the deployments on Watson OpenScale.
 
 ### 8. Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for visualizations
 
-Once data is generated and stored in the db., and after running the `Time Series` notebook, follow the tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorial/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data) to generate the output as shown in the next section.
+Once data is generated and stored in the db., and after running the `Time Series` notebook, follow the tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorials/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data/) to generate the output as shown in the next section.
 
 ## Sample Output
 
