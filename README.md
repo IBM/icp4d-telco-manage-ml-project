@@ -166,6 +166,8 @@ Insert your created db credentials, below the section `2.1 Insert the Db Credent
    ![configure_db_creds](doc/src/images/configure_dbcred.png)
 
 
+> **Note:** Run the below step (`Add the Dataset`) ONLY if you have not completed the [Data Virtulisation tutorial](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/). 
+
 #### Add the Dataset
 
 In section `2.2 Add Dataset`, highlight the blank cell by clicking on it. Click on the *10/01* button to select a specific data set.
