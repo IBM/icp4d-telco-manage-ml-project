@@ -106,7 +106,6 @@ To create the data set required for this code pattern, you have 2 options.
 
    ![name_project](doc/src/images/name_project.png)
    
-#### Insert DB Credentials
 
 ### Steps for DB Credentials for Db2 on Cloud
 
