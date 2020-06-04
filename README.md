@@ -59,7 +59,7 @@ After completing this code pattern, you'll learn how to:
 
 * An [IBM Cloud Account](https://cloud.ibm.com).
 * [IBM Cloud Pak for Data](https://www.ibm.com/in-en/products/cloud-pak-for-data)
-* An Active Db2 instance
+* [An Active Db2 instance](https://cloud.ibm.com/catalog/services/db2)
 * [Watson OpenScale Add On for Cloud Pak for Data](https://cloud.ibm.com/docs/services/ai-openscale-icp?topic=ai-openscale-icp-inst-install-icp)
 * Tutorial - [Query across distributed data sources as one: Data virtualization for data analytics](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/)
 * Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://developer.ibm.com/patterns/monitor-and-deploy-open-source-ml-models-with-wml-and-watson-openscale-on-icp4d/)
@@ -105,6 +105,40 @@ To create the data set required for this code pattern, you have 2 options.
 * When you reach the Project list, click on `New Project`. You will get a pop-up, make sure to have the `Analytics Project` option and enter the desired name. Once you click on `Ok` you will go to a new screen. Click on `Create` to complete your project creation.
 
    ![name_project](doc/src/images/name_project.png)
+   
+#### Insert DB Credentials
+
+### Steps for DB Credentials for Db2 on Cloud
+
+* Create a [Db2 instance](https://cloud.ibm.com/catalog/services/db2) on your Cloud account.
+* Once the instance is created, in the `Service Credential` tab, click on `Open Console`.
+
+  ![db2cred](doc/src/images/db2cred.png)
+  
+* Click on `New Credential` and the `Add`.
+
+  ![addcred](doc/src/images/addcred.png)
+
+
+  
+* Now the service credential will be created, click on the copy button and save the credentials.
+ 
+  ![copycred](doc/src/images/copycred.png)
+  
+#### Cloud Pak for Data Steps
+
+* Now navigate back to the created project. And click on `Add to Project` menu.
+* Once the pop-up opens up click on `connection`.
+
+   ![connection](doc/src/images/connection.png)
+   
+* Click on the appropriate Db option. And enter the saved credentials.
+
+   ![connection](doc/src/images/conndb2cloud.png)
+
+> **NOTE**: Click on Db2 on Cloud if you have did the `Steps for DB Credentials for Db2 on Cloud`. For any other db click other options and obtain the credentials.
+
+* Finally, click on `Test` and once it is succesful, click on `Create`.
 
 ### 4. Upload the dataset to Cloud Pak for Data
 
@@ -114,7 +148,7 @@ To create the data set required for this code pattern, you have 2 options.
 
 ### 5. Import notebook to Cloud Pak for Data
 
-* From your project page, select `Notebooks > Add Notebook`. From the `From File` tab, click on Browse. Navigate to the `Multivariate_Time_Series.ipynb` notebook located in the `/notebooks` directory, and click on `Create`.
+* From your project page, select `Notebooks > Add Notebook`. From the `From URL` tab.  Enter the Notebook URL- https://github.com/IBM/icp4d-telco-manage-ml-project/blob/master/notebooks/Multivariate_Time_Series.ipynb, enter a name and click on `Create`.
 
    ![create_notebook](doc/src/images/create_notebook.png)
 
@@ -126,13 +160,13 @@ You will run cells individually by highlighting each cell, then either click the
 
 > **NOTE**: For reference, we have included a completed notebook in the `/examples` directory of this repo. This version of the notebook includes all the executed steps and outputs. See [https://github.com/IBM/icp4d-telco-manage-ml-project/blob/master/examples/Multivariate_Time_Series-Example.ipynb](https://github.com/IBM/icp4d-telco-manage-ml-project/blob/master/examples/Multivariate_Time_Series-Example.ipynb)
 
-#### Insert DB Credentials
+
+#### Configure in Notebook
 
 Insert your created db credentials, below the section `2.1 Insert the Db Credentials` in the notebook. 
 
    ![configure_db_creds](doc/src/images/configure_dbcred.png)
 
-> **NOTE**: We assume have a Db2 instance availabe on Cloud or on-premise Db.
 
 #### Add the Dataset
 
