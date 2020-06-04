@@ -96,18 +96,9 @@ To create the data set required for this code pattern, you have 2 options.
 
 2. As a convinence, we have created a `csv` file version of this merged data wich you can use directly. The file is named `Telco_training_final.csv` and is also located in the `data` directory.
 
-### 3. Create a new project in Cloud Pak for Data
+> **Note** : Pls execute the below section(`Steps for obtaining DB Credentials for Db2 on Cloud`) ONLY if you want to use Db2 on Cloud to store the output of the Time-Series model.
 
-* Once you login to your Cloud Pak for Data instance. Click on the (☰) `menu` icon in the top left corner of your screen and click `Projects`.
-
-   ![select_project](doc/src/images/Select_Project.png)
-
-* When you reach the Project list, click on `New Project`. You will get a pop-up, make sure to have the `Analytics Project` option and enter the desired name. Once you click on `Ok` you will go to a new screen. Click on `Create` to complete your project creation.
-
-   ![name_project](doc/src/images/name_project.png)
-   
-
-### Steps for DB Credentials for Db2 on Cloud
+### Steps for obtaining DB Credentials for Db2 on Cloud
 
 * Create a [Db2 instance](https://cloud.ibm.com/catalog/services/db2) on your Cloud account.
 * Once the instance is created, in the `Service Credential` tab, click on `Open Console`.
@@ -123,10 +114,18 @@ To create the data set required for this code pattern, you have 2 options.
 * Now the service credential will be created, click on the copy button and save the credentials.
  
   ![copycred](doc/src/images/copycred.png)
-  
-#### Cloud Pak for Data Steps
 
-* Now navigate back to the created project. And click on `Add to Project` menu.
+### 3. Create a new project in Cloud Pak for Data
+
+* Once you login to your Cloud Pak for Data instance. Click on the (☰) `menu` icon in the top left corner of your screen and click `Projects`.
+
+   ![select_project](doc/src/images/Select_Project.png)
+
+* When you reach the Project list, click on `New Project`. You will get a pop-up, make sure to have the `Analytics Project` option and enter the desired name. Once you click on `Ok` you will go to a new screen. Click on `Create` to complete your project creation.
+
+   ![name_project](doc/src/images/name_project.png)
+
+* Once the start-up page opens up. Click on `Add to Project` menu.
 * Once the pop-up opens up click on `connection`.
 
    ![connection](doc/src/images/connection.png)
