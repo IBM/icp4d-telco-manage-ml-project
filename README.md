@@ -119,6 +119,9 @@ To create the data set required for this code pattern, you have 2 options.
 
 #### For SingleStoreDB
 * The SingleStore database credentials are uid of admin and password is whatever you have used to launch cluster.
+```
+Example:  mysql -u admin -p<your admin pw> -h <cluster-ip> -P 3306
+```
 
 
 ### 3. Create a new project in Cloud Pak for Data
