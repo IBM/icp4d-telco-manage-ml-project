@@ -138,7 +138,7 @@ To create the data set required for this code pattern, you have 2 options.
    
 * Click on the appropriate Db option. And enter the saved credentials.
 
-- For DB2 Database, follow the below steps:
+#### For DB2 Database, follow the below steps:
 
    ![connection](doc/src/images/conndb2cloud.png)
 
@@ -146,7 +146,7 @@ To create the data set required for this code pattern, you have 2 options.
 
 * Click on `Test` and once it is succesful, click on `Create`.
 
-- For SingleStore database, follow the below steps:
+#### For SingleStore database, follow the below steps:
 
 * Select the `Compose for MySQL Database` connection.
 
