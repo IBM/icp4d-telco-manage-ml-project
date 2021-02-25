@@ -118,7 +118,7 @@ To create the data set required for this code pattern, you have 2 options.
   ![copycred](doc/src/images/copycred.png)
 
 #### For SingleStoreDB
-* The SingleStore database credentials are uid of admin and password is whatever they used to launch cluster.
+* The SingleStore database credentials are uid of admin and password is whatever you have used to launch cluster.
 
 
 ### 3. Create a new project in Cloud Pak for Data
