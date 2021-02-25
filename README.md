@@ -135,13 +135,25 @@ To create the data set required for this code pattern, you have 2 options.
 
    ![connection](doc/src/images/connection.png)
    
-* Click on the appropriate DB option. Select DB2 if DB2 is used or MySQL if SingleStoreDB is used. And enter the saved credentials.
+* Click on the appropriate Db option. And enter the saved credentials.
+
+- For DB2 Database, follow the below steps:
 
    ![connection](doc/src/images/conndb2cloud.png)
 
-> **NOTE**: Click on DB2 on Cloud if you have did the `Steps for DB Credentials for DB2 on Cloud`. For any other db click other options and obtain the credentials.
+> **NOTE**: Click on Db2 on Cloud if you have did the `Steps for DB Credentials for Db2 on Cloud`. For any other db click other options and obtain the credentials.
 
-* Finally, click on `Test` and once it is succesful, click on `Create`.
+* Click on `Test` and once it is succesful, click on `Create`.
+
+- For SingleStore database, follow the below steps:
+
+* Select the `Compose for MySQL Database` connection.
+
+  ![connect_to_db](doc/src/images/create_memsql.png)  
+
+* Enter the credentials of the Database. Click on `Test` and then click on `Create`.
+
+  ![Enter_Cred](doc/src/images/enter_cred.png)
 
 ### 4. Upload the dataset to Cloud Pak for Data
 
