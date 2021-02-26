@@ -73,7 +73,7 @@ After completing this code pattern, you'll learn how to:
 ## Steps
 
 1. [Clone the repository](#1-clone-the-repository)
-1. [Obtain your data from Data Virtualisation](#2-obtain-your-data-from-data-virtualisation)
+1. [Obtain your data from Data Virtualization](#2-obtain-your-data-from-data-virtualization)
 1. [Create a new project in Cloud Pak for Data](#3-create-a-new-project-in-cloud-pak-for-data)
 1. [Upload the dataset to Cloud Pak for Data](#4-upload-the-dataset-to-cloud-pak-for-data)
 1. [Import notebook to Cloud Pak for Data](#5-import-notebook-to-cloud-pak-for-data)
