@@ -194,7 +194,7 @@ Insert your created DB credentials, below the section `2.1 Insert the DB Credent
    ![configure_db_creds](doc/src/images/configure_dbcred.png)
 
 
-> **Note:** Run the below step (`Add the Dataset`) ONLY if you have not completed the [Data Virtulization tutorial](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/). 
+> **Note:** Run the below step (`Add the Dataset`) ONLY if you have not completed the [Data Virtualization tutorial](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/). 
 
 #### Add the Dataset
 
