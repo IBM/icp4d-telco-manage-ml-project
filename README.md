@@ -119,15 +119,7 @@ To create the data set required for this code pattern, you have 2 options.
 
 #### For SingleStoreDB
 * The SingleStore database credentials are uid of admin and password is whatever you have used to launch cluster.
-Please make a note of the below credential configured for SingleStore DB during installation - hostname, password, port and database name.
-```
-Example:  
-hostname: Cluster-IP 
-Password Cluster_Password
-Port: 3306
-Database name: CallDrop_DB
-
-```
+Please make a note of the credentials configured for SingleStore DB during installatio and loading of data - hostname(Cluster_IP), password(cluster_password), port(3306) and database name(as configured during data load).
 
 
 ### 3. Create a new project in Cloud Pak for Data
