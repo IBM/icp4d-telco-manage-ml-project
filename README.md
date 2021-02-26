@@ -24,7 +24,7 @@ A call drop is a situation where a call on a wireless network is disconnected be
 This code pattern aims to create a model to predict call drops, trained on the above mentioned failures. With the help of an interactive dashboard, we use a time series model to better understand call drops. As a benefit to telecom providers and their customers, it can be used to identify issues at an earlier stage, allowing more time to take the necessary measures to mitigate problems. The main features of the solution include:
 
 * Built on IBM Cloud Pak for Data.
-* Data can come from multiple db sources, for example an internal DB2 Warehouse (SMP) within the Cloud Pak for Data instance, or other external sources like DB2 on Cloud, Oracle db, Postgres Db, SingleStoreDB and so on. Data Virtualization will be used to integrate them all into one db source.
+* Data can come from multiple DB sources, for example an internal DB2 Warehouse (SMP) within the Cloud Pak for Data instance, or other external sources like DB2 on Cloud, Oracle DB, Postgres DB, SingleStoreDB and so on. Data Virtualization will be used to integrate them all into one DB source.
 * Using a built-in notebook service, a time-series model that predicts call-drops in the the next 24 hours.
 * A call-drop prediction model for each cell tower. These models will be monitored for quality and fairness using AI OpenScale.
 * A Cognos Analytics dashboard that provides the user with an overall region-wise view of the call-drop scenarios. With the help of Watson OpenScale, the time-series model will be output in a graph, along with the models performance improvements.
@@ -32,7 +32,7 @@ This code pattern aims to create a model to predict call drops, trained on the a
 After completing this code pattern, you'll learn how to:
 
 * Use Data Virtualization.
-* Create connections from Dbs hosted on multiple Cloud (AWS, Azure or IBM Cloud) or on-premise environments.
+* Create connections from DBs hosted on multiple Cloud (AWS, Azure or IBM Cloud) or on-premise environments.
 * Create views from joins and publish data to your current Project.
 * Store custom models using open source technology on Watson Machine Learning.
 * Deploy a model and connect the model deployment to Watson OpenScale on Cloud Pak for Data and IBM Cloud.
@@ -44,7 +44,7 @@ After completing this code pattern, you'll learn how to:
 ## Flow
 
 1. Data stored across various sources, like AWS Cloud and IBM Cloud, are virtualized and joined as needed by the AI Models.
-1. The joined data is stored back to the Internal Db(DB2 or SingleStoreDB) of Cloud Pak for Data and assigned to the current working project.
+1. The joined data is stored back to the Internal DB(DB2 or SingleStoreDB) of Cloud Pak for Data and assigned to the current working project.
 1. Create machine learning models using Jupyter Python Notebooks to predict call-drops per tower, and also a time-series model that projects a call-drop percentage based on real-time conditions.
 1. Model trained and/or stored in Watson Machine Learning, which is also connected to the Watson OpenScale.
 1. Visualize and analyse insights from the trained models and the data using Cognos Analytics dasboards.
@@ -146,13 +146,13 @@ Database name: CallDrop_DB
 
    ![connection](doc/src/images/connection.png)
    
-* Click on the appropriate Db option. And enter the saved credentials.
+* Click on the appropriate DB option. And enter the saved credentials.
 
 #### For DB2 Database, follow the below steps:
 
    ![connection](doc/src/images/conndb2cloud.png)
 
-> **NOTE**: Click on Db2 on Cloud if you have did the `Steps for DB Credentials for Db2 on Cloud`. For any other db click other options and obtain the credentials.
+> **NOTE**: Click on DB2 on Cloud if you have did the `Steps for DB Credentials for DB2 on Cloud`. For any other DB click other options and obtain the credentials.
 
 * Click on `Test` and once it is succesful, click on `Create`.
 
@@ -189,7 +189,7 @@ You will run cells individually by highlighting each cell, then either click the
 
 #### Configure in Notebook
 
-Insert your created db credentials, below the section `2.1 Insert the Db Credentials` in the notebook. 
+Insert your created DB credentials, below the section `2.1 Insert the DB Credentials` in the notebook. 
 
    ![configure_db_creds](doc/src/images/configure_dbcred.png)
 
@@ -220,7 +220,7 @@ It performs the setup of the deployments on Watson OpenScale.
 
 ### 8. Setup Cognos Analytics Dashboard on your Cloud Pak for Data instance for visualizations
 
-Once data is generated and stored in the db., and after running the `Time Series` notebook, follow the tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorials/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data/) to generate the output as shown in the next section.
+Once data is generated and stored in the DB., and after running the `Time Series` notebook, follow the tutorial - [Build dashboards in Cognos Analytics on IBM Cloud Pak for Data](https://developer.ibm.com/tutorials/build-dashboards-in-cognos-analytics-on-ibm-cloud-pak-for-data/) to generate the output as shown in the next section.
 
 ## Sample Output
 
