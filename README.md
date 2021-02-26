@@ -88,7 +88,7 @@ git clone https://github.com/IBM/icp4d-telco-manage-ml-project
 cd icp4d-telco-manage-ml-project
 ```
 
-### 2. Obtain your data from Data Virtualisation
+### 2. Obtain your data from Data Virtualization
 
 To create the data set required for this code pattern, you have 2 options.
 
