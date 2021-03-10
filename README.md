@@ -39,7 +39,7 @@ After completing this code pattern, you'll learn how to:
 * Setup Model Fairness and Model Quality montiors in Watson OpenScale on Cloud Pak for Data, and on IBM Cloud, using a python notebook.
 * Create a project and setup a python notebook on Cloud Pak for Data.
 
-![architecture](doc/src/images/architectures.png)
+![architecture](doc/src/images/architectures1.png)
 
 ## Flow
 
