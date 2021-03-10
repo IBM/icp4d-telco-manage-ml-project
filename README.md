@@ -24,7 +24,7 @@ A call drop is a situation where a call on a wireless network is disconnected be
 This code pattern aims to create a model to predict call drops, trained on the above mentioned failures. With the help of an interactive dashboard, we use a time series model to better understand call drops. As a benefit to telecom providers and their customers, it can be used to identify issues at an earlier stage, allowing more time to take the necessary measures to mitigate problems. The main features of the solution include:
 
 * Built on IBM Cloud Pak for Data.
-* Data can come from multiple DB sources, for example an internal DB2 Warehouse (SMP) within the Cloud Pak for Data instance, or other external sources like DB2 on Cloud, Oracle DB, Postgres DB, SingleStoreDB and so on. Data Virtualization will be used to integrate them all into one DB source.
+* Data can come from multiple DB sources, for example an internal DB2 Warehouse (SMP) within the Cloud Pak for Data instance, or other external sources like DB2 on Cloud, Oracle DB, Postgres DB, SingleStore and so on. Data Virtualization will be used to integrate them all into one DB source.
 * Using a built-in notebook service, a time-series model that predicts call-drops in the the next 24 hours.
 * A call-drop prediction model for each cell tower. These models will be monitored for quality and fairness using AI OpenScale.
 * A Cognos Analytics dashboard that provides the user with an overall region-wise view of the call-drop scenarios. With the help of Watson OpenScale, the time-series model will be output in a graph, along with the models performance improvements.
@@ -44,7 +44,7 @@ After completing this code pattern, you'll learn how to:
 ## Flow
 
 1. Data stored across various sources, like AWS Cloud and IBM Cloud, are virtualized and joined as needed by the AI Models.
-1. The joined data is stored back to the Internal DB(DB2 or SingleStoreDB) of Cloud Pak for Data and assigned to the current working project.
+1. The joined data is stored back to the Internal DB(DB2 or SingleStore) of Cloud Pak for Data and assigned to the current working project.
 1. Create machine learning models using Jupyter Python Notebooks to predict call-drops per tower, and also a time-series model that projects a call-drop percentage based on real-time conditions.
 1. Model trained and/or stored in Watson Machine Learning, which is also connected to the Watson OpenScale.
 1. Visualize and analyse insights from the trained models and the data using Cognos Analytics dasboards.
@@ -61,8 +61,8 @@ After completing this code pattern, you'll learn how to:
 * [IBM Cloud Pak for Data](https://www.ibm.com/in-en/products/cloud-pak-for-data)
 * If DB2 is being used as the internal DB then you require 
 [An Active DB2 instance](https://cloud.ibm.com/catalog/services/db2)
-* If SingleStoreDB is being used as the internal DB then you require 
-[An Active SingleStoreDB instance](https://docs.singlestore.com/v7.3/reference/memsql-operator-reference/additional-deployment-methods/helm-chart-for-ibm-cloud-pak-for-data/)
+* If SingleStore is being used as the internal DB then you require 
+[An Active SingleStore instance](https://docs.singlestore.com/v7.3/reference/memsql-operator-reference/additional-deployment-methods/helm-chart-for-ibm-cloud-pak-for-data/)
 * [Watson OpenScale Add On for Cloud Pak for Data](https://cloud.ibm.com/docs/services/ai-openscale-icp?topic=ai-openscale-icp-inst-install-icp)
 * Tutorial - [Query across distributed data sources as one: Data virtualization for data analytics](https://developer.ibm.com/tutorials/query-across-distributed-data-sources-as-one-data-virtualization-for-data-analytics/)
 * Code pattern - [Monitor your machine learning models using Watson OpenScale in IBM Cloud Pak for Data](https://developer.ibm.com/patterns/monitor-and-deploy-open-source-ml-models-with-wml-and-watson-openscale-on-icp4d/)
@@ -117,9 +117,9 @@ To create the data set required for this code pattern, you have 2 options.
  
   ![copycred](doc/src/images/copycred.png)
 
-#### For SingleStoreDB
-* The SingleStore database credentials are uid of admin and password is whatever you have used to launch cluster.
-Please make a note of the credentials configured for SingleStore DB during installatio and loading of data - hostname(Cluster_IP), password(cluster_password), port(3306) and database name(as configured during data load).
+#### For SingleStore
+* The SingleStore credentials are uid of admin and password is whatever you have used to launch cluster.
+Please make a note of the credentials configured for SingleStore during installatio and loading of data - hostname(Cluster_IP), password(cluster_password), port(3306) and database name(as configured during data load).
 
 
 ### 3. Create a new project in Cloud Pak for Data
@@ -147,7 +147,7 @@ Please make a note of the credentials configured for SingleStore DB during insta
 
 * Click on `Test` and once it is succesful, click on `Create`.
 
-#### For SingleStore database, follow the below steps:
+#### For SingleStore, follow the below steps:
 
 * Select the `Compose for MySQL Database` connection.
 
